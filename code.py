@@ -17,8 +17,6 @@ async def echo(message: types.Message):
         await message.answer('и тебе привет!')
     elif text in ['Пока', 'До свидания', 'ББ']:
         await message.answer('и тебе пока друг!')
-    elif text in ['нпп', 'негры пидорасы поголовно']:
-        await message.answer('я с тобой полностью согласен!!!')
     else: 
         await message.answer(message.text)
 
